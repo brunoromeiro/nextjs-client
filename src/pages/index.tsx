@@ -13,9 +13,7 @@ export default function Home({ title = 'React Avançado!' }: Props) {
       </Head>
 
       <main>
-        <h1 className="title">
-          {title}
-        </h1>
+        <h1 className="title">{title}</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
